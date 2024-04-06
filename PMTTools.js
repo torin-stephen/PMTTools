@@ -21,6 +21,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://www.google.com/s2/favicons?sz=64&domain=physicsandmathstutor.com" type="image/x-icon">
   <title>Physics & Maths Tutor</title>
   <!-- Include Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
@@ -177,7 +178,7 @@
         const year = getSelectedYear();
         let url;
         if (year === "2020" || year === "2021") {
-            url = `https://pmt.physicsandmathstutor.com/download/Physics/A-level/Past-Papers/OCR-B/Paper-${buttonNumber}/Nov%20${year}%20QP%20-%20Paper%20${buttonNumber}%20OCR%20(B)%20Physics%20A-level.pdf`;
+            url = `https://pmt.physicsandmathstutor.com/download/Physics/A-level/Past-Papers/OCR-B/Paper-${buttonNumber}/November%20${year}%20QP%20-%20Paper%20${buttonNumber}%20OCR%20(B)%20Physics%20A-level.pdf`;
         } else {
             url = `https://pmt.physicsandmathstutor.com/download/Physics/A-level/Past-Papers/OCR-B/Paper-${buttonNumber}/June%20${year}%20QP%20-%20Paper%20${buttonNumber}%20OCR%20(B)%20Physics%20A-level.pdf`;
         }
